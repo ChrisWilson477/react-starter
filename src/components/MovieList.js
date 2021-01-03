@@ -2,7 +2,7 @@ import React from 'react';
 import MovieListEntry from './MovieListEntry.js';
 
 
-var MovieList = ({movies}) => {
+var MovieList = ({ movies }) => {
 
   return (
 
