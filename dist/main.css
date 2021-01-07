@@ -1,40 +1,67 @@
-h1{
+h1 {
   text-align: center;
   border: 4px solid black;
-
 }
 
-.movie-list {
-font-family: Arial, Helvetica, sans-serif;
-background-color: teal;
-color: white;
-text-align: center;
-border: 1px solid white;
-
-}
-.type-box{
-  height: 19px;
-  float: left;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-.btn{
-  float: inline-end;
-  padding: 5px;
-  margin-top: 1px;
-  margin-right: 15px;
-  margin-bottom: 2px;
-  background: rgb(221, 221, 221);
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-
+#eventEntry {
+  padding: 15px;
+  margin: 10px;
+  background-color: "brown";
 }
 
-.search{
-  padding : 4px;
+#inputBar {
   text-align: center;
-  font-weight: bold;
-  font-size: 14px;
+  align-items: center;
+  padding: 5px;
+}
 
+#inputLabel {
+  padding-right: 5px;
+  font-size: 24px;
+}
+
+#inputSearch {
+  background-color: white;
+  font-size: 16px;
+  margin-left: 3px;
+  margin-right: 5px;
+}
+
+#submitButton {
+  font-size: 16px;
+  border-radius: 1px;
+}
+
+#title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#react-paginate ul {
+  display: inline-block;
+  margin-left: 400px;
+  padding-left: 0;
+}
+
+#react-paginate li {
+  display: inline-block;
+  border: 1px solid rgb(224, 224, 224);
+  color: #000;
+  cursor: pointer;
+  margin-right: 3px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#react-paginate li a {
+  padding: 2px 5px;
+  display: inline-block;
+  color: #000;
+  outline: none;
+}
+
+#react-paginate li.active {
+  background: rgb(224, 224, 224);
+  outline: none;
 }
